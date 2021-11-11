@@ -1,6 +1,6 @@
-# Project Title
+# Learning Unity
 
-This project was imported using the Unity 2020.3.18f empty base project.
+This project was imported using the Unity 2020.3.18f1 empty base project.
 
 Within this project, I will learn versioning Unity projects using Git. 
 
