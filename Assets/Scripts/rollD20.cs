@@ -11,7 +11,7 @@ public class rollD20 : MonoBehaviour
     void Start()
     {
         // printing random number from 1 - 20 to console window
-        rolledResult = Random.Range(1, 20);
+        rolledResult = Random.Range(1, 21);
         Debug.Log("Dein Würfel zeigt eine <color=#4caf50>" + rolledResult + "</color>!");
     }
 
@@ -19,7 +19,7 @@ public class rollD20 : MonoBehaviour
     void Update()
     {
         // printing random result to console window when pressing SPACE
-        rolledResult = Random.Range(1, 20);
+        rolledResult = Random.Range(1, 21);
         if (Input.GetKeyDown("space")) {
             Debug.Log("Du hast eine <color=#4caf50>" + rolledResult + "</color> gewürfelt!");
         }
