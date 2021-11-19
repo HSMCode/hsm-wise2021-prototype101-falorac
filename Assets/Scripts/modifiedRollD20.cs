@@ -31,7 +31,7 @@ public class modifiedRollD20 : MonoBehaviour
     void Update()
     {
         // generate random number between 1 - 20
-        rolledResult = Random.Range(1, 20);
+        rolledResult = Random.Range(1, 21);
 
         // check if rolled number is equal to any lucky number and change boolean
         for (int i = 0; i < luckyNumbers.Length; i++) {
