@@ -14,10 +14,4 @@ public class drawLineToGround : MonoBehaviour
         float height = transform.position.y;
         Debug.DrawLine(transform.position, transform.position - Vector3.up * height, Color.blue, 5);
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

@@ -461,7 +461,7 @@ GameObject:
   - component: {fileID: 817418594}
   - component: {fileID: 817418595}
   m_Layer: 0
-  m_Name: Move
+  m_Name: MovesUnlessYouHoldSpace
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -725,7 +725,7 @@ GameObject:
   - component: {fileID: 1582742608}
   - component: {fileID: 1582742607}
   m_Layer: 0
-  m_Name: Cylinder
+  m_Name: TellsNameAndPosition
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -930,7 +930,7 @@ GameObject:
   - component: {fileID: 1865487276}
   - component: {fileID: 1865487280}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: DrawsLineToGround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1038,7 +1038,7 @@ GameObject:
   - component: {fileID: 1926477420}
   - component: {fileID: 1926477424}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: IsClippingThroughFloor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1229,7 +1229,7 @@ GameObject:
   - component: {fileID: 2070656052}
   - component: {fileID: 2070656056}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: IsntClippingThroughFloor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

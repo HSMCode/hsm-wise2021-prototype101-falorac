@@ -10,12 +10,8 @@ public class giveNameAndPosition : MonoBehaviour
     {
         // GameObject the script is attached to says its "name" aka the name you gave it within the hierarchy
         Debug.Log("Hello, my name is " + this.gameObject + "!", this.gameObject);
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        // GameObject the script is attached to states x, y, z coordinates every frame
+        // GameObject the script is attached to states x, y, z coordinates
         Debug.Log(this.gameObject + " is positioned at " + this.gameObject.transform.position, this.gameObject);
     }
 }

@@ -35,10 +35,4 @@ public class divideByThreeArrayExperiment : MonoBehaviour
         Debug.Log(consoleMessage + " <b><color=#00bcd4>" + calculatedResult + "</color></b> \n" + 
         declaredVariables, this.gameObject);
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
